@@ -1331,12 +1331,12 @@ body {
 }
 .cid-rAMTR2KIrJ .navbar {
   padding: .5rem 0;
-  background: #19192a;
+  background: #000000;
   transition: none;
   min-height: 77px;
 }
 .cid-rAMTR2KIrJ .navbar-dropdown.bg-color.transparent.opened {
-  background: #19192a;
+  background: #000000;
 }
 .cid-rAMTR2KIrJ a {
   font-style: normal;
@@ -1427,7 +1427,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rAMTR2KIrJ .dropdown .dropdown-menu {
-  background: #19192a;
+  background: #000000;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1476,7 +1476,7 @@ body {
   font-size: 2.5rem !important;
 }
 .cid-rAMTR2KIrJ .navbar.navbar-short .navbar-logo a img {
-  height: 3rem !important;
+  height: 5rem !important;
 }
 .cid-rAMTR2KIrJ .navbar.navbar-short .navbar-brand {
   min-height: 3rem;
