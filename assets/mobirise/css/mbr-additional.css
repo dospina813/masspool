@@ -1578,7 +1578,7 @@ body {
 }
 @media (min-width: 1024px) {
   .cid-rAMTR2KIrJ .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 8rem);
+    max-height: calc(98.5vh - 6.1rem);
   }
 }
 .cid-rAMTR2KIrJ .collapsed button.navbar-toggler {
