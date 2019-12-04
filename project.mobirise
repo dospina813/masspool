@@ -77,7 +77,6 @@
     "cookiesAlert": {
       "colorText": "#424a4d",
       "colorBg": "#eaeff1",
-      "colorButton": "#ffffff",
       "colorLink": "#424a4d",
       "underlineLink": true,
       "opacity": "99",
@@ -90,7 +89,7 @@
       "text": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "uniqCompNum": 18,
-    "versionPublish": "4.10.8",
+    "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": ""
@@ -662,11 +661,11 @@
           "_name": "content8",
           "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">SIGN UP</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rB4Dj6EBF2",
+          "_anchor": "content8-h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content8-h"
+          "_params": {}
         },
         {
           "alias": false,
@@ -715,9 +714,9 @@
             ".display-5": {
               "font-size": "2.3rem"
             },
-            ".preview-section::before": {
+            "section::before": {
               "content": "''",
-              "background-image": "url('@PROJECT_PATH@/assets/images/logo-symbol-bg.png')",
+              "background-image": "url(@PROJECT_PATH@/assets/images/logo-symbol-bg.png)",
               "background-position": "right",
               "background-repeat": "no-repeat",
               "background-size": "contain",
